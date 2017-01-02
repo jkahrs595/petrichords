@@ -1,8 +1,10 @@
 {
   "name": "petrichords",
   "version": "0.1.0",
+  "homepage": "https://jkahrs595.github.io/petrichords",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "react-bootstrap": "^0.30.7",
     "react-scripts": "0.8.4"
   },
@@ -11,6 +13,7 @@
     "react-dom": "^15.4.1"
   },
   "scripts": {
+    "deploy" : "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
