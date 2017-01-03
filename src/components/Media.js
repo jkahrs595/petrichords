@@ -9,7 +9,7 @@ class Media extends React.Component {
         return (
             <Grid>
                 <Row>
-                    <Col xs={6} md={4}>
+                    <Col xs={12} md={4}>
                         <Thumbnail src={afx} alt="242x200">
                             <h3>Thumbnail label</h3>
                             <p>Description</p>
@@ -19,7 +19,7 @@ class Media extends React.Component {
                             </p>
                         </Thumbnail>
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={12} md={4}>
                         <Thumbnail src={daftpunk} alt="242x200">
                             <h3>Thumbnail label</h3>
                             <p>Description</p>
@@ -29,7 +29,7 @@ class Media extends React.Component {
                             </p>
                         </Thumbnail>
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={12} md={4}>
                         <Thumbnail src={squarepusher} alt="242x200">
                             <h3>Thumbnail label</h3>
                             <p>Description</p>
